@@ -9,3 +9,10 @@ while PasswordAttempt != Password:
 print ("Password correct. Welcome aboard the", ShipName + ".")
 print("\nThe spaceship", ShipName, "is currently at", Location + ".")
 Choice = ""
+while Choice != "d":
+	print ("\nWhat would you like to do", Captain + "?\n")
+	print ("1. Travel to another Country")
+	print ("2. Fire cannons")
+	print ("3. View your details")
+	print ("4. Exit\n")
+	Choice = input ("Enter your choice:  ")
